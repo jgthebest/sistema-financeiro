@@ -23,8 +23,8 @@ public class Transacao {
     };
     public void exibirTransacao(){
         System.out.printf("Descrição: %s\n", descricao);
-        System.out.printf("Valor: %.2f\n", valor);
         System.out.printf("Tipo: %s\n", tipo);
+        System.out.printf("Valor: %.2f\n", valor);
         System.out.println("-----------------------------");
     }
 }
